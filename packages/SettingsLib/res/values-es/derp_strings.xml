@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 DerpFest
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description for the screen zoom level that makes interface elements smaller. [CHAR LIMIT=24] -->
+    <string name="screen_zoom_summary_smaller">Más pequeño</string>
+    <!-- Description for the screen zoom level that makes interface elements smallest. [CHAR LIMIT=24] -->
+    <string name="screen_zoom_summary_smallest">El más pequeño</string>
+
+    <!-- Deep sleep info -->
+    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+
+    <!-- ZenMode -->
+    <string name="interruption_level_none_with_warning">Silencio total. Esto también silenciará los lectores de pantalla.</string>
+    <string name="interruption_level_priority">Sólo prioritarias</string>
+    <string name="interruption_level_alarms">Sólo alarmas</string>
+    <string name="interruption_level_none_twoline">Silencio
+total</string>
+    <string name="interruption_level_priority_twoline">Sólo
+prioritarias</string>
+    <string name="interruption_level_alarms_twoline">Sólo
+alarmas</string>
+</resources>

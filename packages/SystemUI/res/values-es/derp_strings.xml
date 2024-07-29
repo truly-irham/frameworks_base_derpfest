@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 DerpFest
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of the clock in status bar [CHAR LIMIT=30] -->
+    <string name="clock">Reloj</string>
+
+    <!-- Status bar - icons -->
+    <string name="status_bar_icons_title">Iconos de la barra de estado</string>
+
+    <!-- Name of the nfc status bar icon. -->
+    <string name="status_bar_nfc">NFC</string>
+
+    <!-- Custom QS tiles -->
+    <!-- Ambient display QS tile -->
+    <string name="quick_settings_ambient_display_label">Pantalla ambiente</string>
+    <string name="accessibility_quick_settings_ambient_display_off">Pantalla ambiente desactivada.</string>
+    <string name="accessibility_quick_settings_ambient_display_on">Pantalla ambiente activada.</string>
+
+    <!-- AOD QS tile -->
+    <string name="quick_settings_aod_label">AOD</string>
+    <string name="quick_settings_aod_secondary_label_on_at_charge">Encendido en carga</string>
+
+    <!-- Caffeine QS tile -->
+    <string name="quick_settings_caffeine_label">Cafeína</string>
+    <string name="accessibility_quick_settings_caffeine_off">Cafeína desactivada.</string>
+    <string name="accessibility_quick_settings_caffeine_on">Cafeína activada.</string>
+
+    <!-- Compass QS Tile -->
+    <string name="quick_settings_compass_label">Brújula</string>
+    <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="quick_settings_compass_init">Iniciando\u2026</string>
+    <string name="quick_settings_compass_N">N</string>
+    <string name="quick_settings_compass_NE">NE</string>
+    <string name="quick_settings_compass_E">E</string>
+    <string name="quick_settings_compass_SE">SE</string>
+    <string name="quick_settings_compass_S">S</string>
+    <string name="quick_settings_compass_SW">SO</string>
+    <string name="quick_settings_compass_W">O</string>
+    <string name="quick_settings_compass_NW">NO</string>
+
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Cambiar tarjeta de datos</string>
+    <string name="qs_data_switch_toast_0">No hay ninguna tarjeta SIM insertada</string>
+    <string name="qs_data_switch_toast_1">Sólo hay una tarjeta SIM insertada</string>
+    <string name="qs_data_switch_text_1">SIM 1</string>
+    <string name="qs_data_switch_text_2">SIM 2</string>
+    <string name="qs_data_switch_changed_1">Tarjeta de datos cambiada a SIM 1.</string>
+    <string name="qs_data_switch_changed_2">Tarjeta de datos cambiada a SIM 2.</string>
+
+    <!-- Heads up QS tile -->
+    <string name="quick_settings_heads_up_label">Avisos de notificaciones</string>
+    <string name="accessibility_quick_settings_heads_up_off">Avisos de notificaciones desactivados.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Avisos de notificaciones activados.</string>
+
+    <!-- PowerShare QS tile -->
+    <string name="quick_settings_powershare_label">Compartir batería</string>
+    <string name="quick_settings_powershare_off_powersave_label">Compartición de batería desactivada\nAhorro de batería</string>
+    <string name="quick_settings_powershare_off_low_battery_label">Compartición de batería desactivada\nBatería baja</string>
+    <string name="quick_settings_powershare_enabled_label">Compartición de batería activada</string>
+
+    <!-- Reader mode QS tile -->
+    <string name="quick_settings_reading_mode">Modo lectura</string>
+    <string name="accessibility_quick_settings_reading_mode_on">Modo lectura activado.</string>
+    <string name="accessibility_quick_settings_reading_mode_off">Modo lectura desactivado.</string>
+
+    <!-- Sound QS Tile -->
+    <string name="quick_settings_sound_label">Sonido</string>
+    <string name="quick_settings_sound_ring">Sonar</string>
+    <string name="quick_settings_sound_vibrate">Vibración</string>
+    <string name="quick_settings_sound_silent">Silencio</string>
+
+    <!-- Sync QS tile -->
+    <string name="quick_settings_sync_label">Sincronización</string>
+    <string name="accessibility_quick_settings_sync_off">Sincronización desactivada.</string>
+    <string name="accessibility_quick_settings_sync_on">Sincronización activada.</string>
+
+    <!-- USB tethering QS tile -->
+    <string name="quick_settings_usb_tether_label">Anclaje USB</string>
+
+    <!-- VPN QS tile -->
+    <string name="quick_settings_vpn_label">VPN</string>
+    <string name="quick_settings_vpn_connect_dialog_title">Conectar a\u2026</string>
+    <string name="vpn_credentials_hint">Por favor, introduce tus credenciales para conectar a <xliff:g id="name">%s</xliff:g></string>
+    <string name="vpn_credentials_username">Usuario</string>
+    <string name="vpn_credentials_password">Contraseña</string>
+    <string name="vpn_credentials_dialog_connect">Conectar</string>
+
+    <!-- VPN tethering QS tile -->
+    <string name="vpn_tethering_label">Anclaje VPN</string>
+    <string name="vpn_tethering_changed_off">Anclaje VPN desactivado.</string>
+    <string name="vpn_tethering_changed_on">Anclaje VPN activado.</string>
+
+    <!-- Advanced restart menu -->
+    <!-- Button to indicate more options -->
+    <string name="global_action_restart_more">Reiniciar\u2026</string>
+    <!-- Button to restart the device, within the Restart Options dialog -->
+    <string name="global_action_restart_system">Sistema</string>
+    <!-- Button to restart the device into recovery mode, within the Restart Options dialog -->
+    <string name="global_action_restart_recovery">Recuperación</string>
+    <!-- Button to restart the device into bootloader mode, within the Restart Options dialog -->
+    <string name="global_action_restart_bootloader">Gestor de arranque</string>
+    <!-- Button to restart the device into download mode, within the Restart Options dialog -->
+    <string name="global_action_restart_download">Descarga</string>
+    <!-- Button to restart the device into fastboot mode, within the Restart Options dialog -->
+    <string name="global_action_restart_fastboot">Fastbootd</string>
+
+    <!-- Restart progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_progress">Reiniciando\u2026</string>
+    <!-- Restart to recovery mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_recovery_progress">Reiniciando en Recuperación\u2026</string>
+    <!-- Restart to bootloader mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_bootloader_progress">Reiniciando en Gestor de Arranque\u2026</string>
+    <!-- Restart to download mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_download_progress">Reiniciando en Descarga\u2026</string>
+    <!-- Restart to fastboot mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_fastboot_progress">Reiniciando en Fastbootd\u2026</string>
+
+    <!-- Label for current user in power menu options dialog -->
+    <string name="global_action_current_user">Actual</string>
+    <string name="global_action_users">Usuarios</string>
+    <string name="global_action_panic">Disparador Pánico</string>
+    <string name="global_action_restart_systemui">SystemUI</string>
+
+    <!-- Navigation bar dpad -->
+    <string name="accessibility_dpad_left">Cursor izquierda</string>
+    <string name="accessibility_dpad_right">Cursor derecha</string>
+
+    <!-- Label for area where tiles can be added to the qs panel -->
+    <string name="drag_or_tap_to_add_tiles">Mantén &amp; arrastra o pulsa para añadir interruptores</string>
+    <!-- Label for the area where tiles can be dragged in to remove -->
+    <string name="drag_or_tap_to_remove_tiles">Mantén &amp; arrastra o pulsa para quitar interruptores</string>
+
+    <!-- Label for UI element which allows deleting the screenshot [CHAR LIMIT=30] -->
+    <string name="screenshot_delete_label">Borrar</string>
+
+    <!-- Content description indicating that tapping the element will allow deleting the screenshot [CHAR LIMIT=NONE] -->
+    <string name="screenshot_delete_description">Borrar captura</string>
+
+    <!-- Navbar -->
+    <string name="systemui_tuner_navbar_title">Diseño</string>
+    <string name="navigation_bar_format_title">Formato de la barra de navegación</string>
+    <string name="preview">Previsualizar</string>
+    <string name="keycode">Código de tecla</string>
+    <string name="no_home_title">No se ha encontrado el botón inicio</string>
+    <string name="no_home_message">Se requiere un botón de inicio para poder navegar por este dispositivo. Por favor, añade un botón antes de guardar.</string>
+    <string name="clipboard_description">El Portapapeles permite a los elementos ser arrastrados directamente al portapapeles. Los elementos pueden ser arrastrados también fuera del portapapeles cuando están presentes.</string>
+    <string name="keycode_description">Los códigos de tecla permiten a las teclas de teclado ser añadidas a la Barra de Navegación. Cuando se pulsan, emulan la tecla del teclado seleccionada. Primero, la tecla debe ser seleccionada para el botón, seguida de una imagen para ser mostrada en el botón.</string>
+    <string name="start">Inicio</string>
+    <string name="center">Centro</string>
+    <string name="end">Fin</string>
+    <string name="space">Espacio</string>
+    <string name="contextual">Contextual</string>
+    <string name="menu_ime">Menú / Cambiador de teclado</string>
+    <string name="ime_switcher">Cambiador de teclado</string>
+    <string name="select_button">Elige un botón para añadir</string>
+    <string name="add_button">Añadir botón</string>
+    <string name="select_keycode">Elige botón del teclado</string>
+    <string name="select_icon">Elige icono</string>
+    <string name="tuner_other">Otro</string>
+    <string name="left">Izquierda</string>
+    <string name="right">Derecha</string>
+    <string name="navbar_editor_power">Encendido</string>
+    <string name="navbar_editor_volup">Subir volumen</string>
+    <string name="navbar_editor_voldown">Bajar volumen</string>
+    <string name="navbar_editor_title">Editor</string>
+    <string name="navbar_editor_summary">Configura la barra de navegación</string>
+
+    <!-- SysUI Tuner: Adjust button width dialog title [CHAR LIMIT=60] -->
+    <string name="adjust_button_width">Ajustar la anchura del botón</string>
+    <string name="navbar_force_menu_key_title">Forzar tecla de menú</string>
+    <string name="navbar_force_menu_key_summary">Muestra siempre la tecla de menú independientemente del contexto</string>
+
+    <!-- Screen record dialog -->
+    <!-- Label for the switch to enable/disable keeping screen awake in screen recording -->
+    <string name="screenrecord_keep_screen_awake_label">Mantener la pantalla encendida</string>
+    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
+    <string name="screenrecord_delete_label">Borrar</string>
+    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
+    <string name="screenrecord_delete_description">Grabación de pantalla borrada</string>
+
+    <!-- Screen record -->
+    <string name="screenrecord_stopdot_label">Mostrar punto superior</string>
+    <string name="screenrecord_stopdot_summary">Mantén pulsado para moverlo</string>
+    <string name="screenrecord_lowquality_label">Calidad inferior</string>
+    <string name="screenrecord_lowquality_summary">Para reducir el tamaño del archivo</string>
+    <string name="screenrecord_longer_timeout_switch_label">Límite de tamaño de archivo más grande</string>
+    <string name="screenrecord_longer_timeout_switch_summary">Tamaño límite de grabación de 15 GB</string>
+    <string name="screenrecord_skip_time_label">Saltar temporizador</string>
+    <string name="screenrecord_skip_time_summary">Elimina los 3 segundos de espera</string>
+    <string name="screenrecord_hevc_switch_label">Codificación HEVC</string>
+    <string name="screenrecord_hevc_switch_summary">Usa el codificador más eficiente HEVC</string>
+
+    <!-- Name of the vpn status bar icon. -->
+   <string name="status_bar_vpn">VPN</string>
+
+    <!-- Data usage info in QS footer -->
+    <string name="usage_data">usado hoy</string>
+    <string name="usage_data_default_suffix">Datos</string>
+    <string name="usage_wifi_default_suffix">Wi-Fi</string>
+
+    <!-- Text to use when the number in a notification info is too large -->
+    <string name="status_bar_notification_info_overflow" translatable="false">\u221E</string>
+
+    <!-- Name of the roaming status bar icon. -->
+    <string name="status_bar_roaming">Indicador Roaming</string>
+
+    <!-- Name of the HD calling status bar icon. -->
+    <string name="status_bar_hd_calling">Llamada HD (VoLTE/VoNR)</string>
+
+    <!-- Name of the VoWiFi status bar icon. -->
+    <string name="status_bar_vowifi">Llamada Wi-Fi (VoWiFi)</string>
+
+    <!-- QuickSettings: InternetDialog: Summary for how many devices are connected to the hotspot [CHAR LIMIT=NONE] -->
+    <plurals name="quick_settings_internet_hotspot_summary_num_devices">
+        <item quantity="one">%d dispositivo conectado</item>
+        <item quantity="other">%d dispositivos conectados</item>
+    </plurals>
+
+    <!-- Kill button in notification guts -->
+    <string name="force_stop_dlg_title">¿Forzar parada?</string>
+    <string name="force_stop_dlg_text">Si fuerzas la parada de una aplicación, puede comportarse erróneamente.</string>
+
+    <!-- Label for UI element which allows to use lens on screenshot [CHAR LIMIT=30] -->
+    <string name="screenshot_lens_label">Lens</string>
+
+    <!-- Screenshot Tile -->
+    <string name="screenshot_long_press">Mantén pulsado - región seleccionada</string>
+
+    <!-- SoundSearch Tile -->
+    <string name="quick_settings_sound_search">Búsqueda por sonido</string>
+    <string name="quick_settings_sound_search_no_app">Instala primero una aplicación de búsqueda por sonido</string>
+
+    <!-- Language toggle tile -->
+    <string name="quick_settings_locale_label">Idioma</string>
+    <string name="quick_settings_locale_more_locales_toast">Primero configura múltiples idiomas</string>
+
+    <!-- DerpSpace Tile -->
+    <string name="quick_derpspace_label">DerpSpace</string>
+    <string name="quick_derpspace_toast">LOL, realmente pensabas que esa pulsación larga te iba a llevar a algún sitio!!!</string>
+
+    <!-- Text while recognizing face -->
+    <string name="face_unlock_recognizing">Reconociendo cara...</string>
+
+    <!-- Island notification -->
+    <string name="now_playing_on">Reproduciendo en %1$s</string>
+    <string name="by_artist">%1$s por %2$s</string>
+
+    <!-- App kill -->
+    <string name="task_helper_app_killed">%1$s detenido a la fuerza</string>
+    <string name="empty_app_killed">Aplicación</string>
+
+    <!-- App picker -->
+    <string name="app_picker_dialog_title">Elige una aplicación</string>
+    <string name="active_edge_app_select_title">Selecciona aplicación</string>
+    <string name="active_edge_activity_select_title">Selecciona actividad</string>
+
+    <!-- Name of the firewall status bar icon. -->
+    <string name="status_bar_firewall">Firewall</string>
+    <string name="status_bar_firewall_slot" translatable="false">firewall</string>
+</resources>
