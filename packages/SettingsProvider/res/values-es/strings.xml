@@ -15,11 +15,18 @@
  * See the License for the specific language governing permissions and 
  * limitations under the License.
  */
- -->
+-->
+<resources>
+    <!-- Name of the activity for Settings storage. -->
+    <string name="app_label">Almacenamiento de configuración</string>
 
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_label" msgid="4567566098528588863">"Almacenamiento de configuración"</string>
-    <string name="wifi_softap_config_change" msgid="5688373762357941645">"Se han cambiado los ajustes de Compartir Internet"</string>
-    <string name="wifi_softap_config_change_summary" msgid="8946397286141531087">"Toca para ver información detallada"</string>
+    <!-- A notification is shown when the user's softap config has been changed due to underlying
+     hardware restrictions. This is the notifications's title.
+     [CHAR_LIMIT=NONE] -->
+    <string name="wifi_softap_config_change">Los ajustes del punto de acceso inalámbrico se han cambiado</string>
+
+    <!-- A notification is shown when the user's softap config has been changed due to underlying
+         hardware restrictions. This is the notification's summary message.
+         [CHAR_LIMIT=NONE] -->
+    <string name="wifi_softap_config_change_summary">Toca para ver los detalles</string>
 </resources>
